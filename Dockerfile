@@ -1,7 +1,7 @@
 #
 # Build Step
 #
-FROM node:14
+FROM node:22.9.0
 LABEL org.opencontainers.image.authors="BloodLaad"
 LABEL description="Adventures Codex as selfhostable PWA"
 WORKDIR /app
