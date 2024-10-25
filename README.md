@@ -12,3 +12,12 @@ ToDo:
 - Link generated manifes.\<fingerprint\>.json in index.html
 - Run `npx sw-precache`in the dist directory.
 - Run `npm run start`
+
+# Refs
+
+- manifest.json
+  - https://www.npmjs.com/package/webpack-pwa-manifest?activeTab=readme
+- Service Worker
+  - https://dev.to/developertharun/convert-any-website-into-a-pwa-in-just-3-simple-steps-35pp
+- Project sadly to old
+  - https://webpack.js.org/guides/progressive-web-application/
