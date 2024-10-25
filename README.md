@@ -4,16 +4,21 @@ Fork of [Adventurers Codex](https://github.com/adventurerscodex/adventurerscodex
 
 Added PWA features for offline usage and Container for easy hosting.
 
-## Notes
+## Setup
 
-ToDo:
+Docker:
+```bash
+docker run -p 8080:8080 --rm --name adventurerscodex ghcr.io/bloodlaad/adventurerscodex:master
+```
+
+Manual:
 - Run `npm install`
 - Run `npm run build`
 - Link generated manifes.\<fingerprint\>.json in index.html
 - Run `npx sw-precache`in the dist directory.
 - Run `npm run start`
 
-# Refs
+## Refs
 
 - manifest.json
   - https://www.npmjs.com/package/webpack-pwa-manifest?activeTab=readme
