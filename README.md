@@ -8,7 +8,7 @@ Added PWA features for offline usage and Container for easy hosting.
 
 Docker:
 ```bash
-docker run -p 8080:8080 --rm --name adventurerscodex ghcr.io/bloodlaad/adventurerscodex:master
+docker run -dp 8080:8080 --rm --name adventurerscodex ghcr.io/bloodlaad/adventurerscodex:master
 ```
 
 Manual:
